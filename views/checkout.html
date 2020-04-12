@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <div class="container"> 
+        <span class="navbar-brand mb-0 h1">
+            <!-- <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+            <svg class="bi bi-chevron-compact-right" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 01.671.223l3 6a.5.5 0 010 .448l-3 6a.5.5 0 11-.894-.448L9.44 8 6.553 2.224a.5.5 0 01.223-.671z" clip-rule="evenodd"/>
+              </svg>
+            food ordering
+        </span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
+                <ul class="navbar-nav mr-auto  ">
+                    <li class="nav-item active ">
+                 <a class="nav-link " href="/">signup<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                 <a class="nav-link " href="/">Login <span class="sr-only">(current)</span></a>
+                    </li>
+         
+         
+             </ul>
+
+          
+            
+
+
+         </div>
+        </div>
+    </nav>
+    <style>
+        body{
+            background-color: #bcdef8;
+        }
+    </style>
+     
+     <div class="container"> 
+        <div class="jumbotron">
+            <center>
+            <h1>your order</h1>
+            <p>have your food within 30 min</p></div>
+        </center>
+    </div> 
+</div>
+
+   
+    <div class="container p-3 my-3 bg-dark text-white">
+        <center><button onclick="total()" class="btn btn-primary btn-lg">check your bill</button></center>
+        
+        <center>
+        <h6 id="span1"></h6>
+        <h6 id="span2"></h6>
+        <h6 id="span3"></h6>
+        <h6 id="span4"></h6>
+        <h3 id="result"></h3>
+        </center>
+      
+          
+
+
+    </div>
+    <button class="btn btn-secondary btn-lg btn-block" style="visibility: hidden;" id="btn2">proceed to payment</button>
+  
+    <script src="single.js"></script>
+    
+</body>
+</html>
